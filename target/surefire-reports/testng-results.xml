@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69293" started-at="2019-01-08T16:59:23Z" finished-at="2019-01-08T17:00:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="69293" started-at="2019-01-08T16:59:23Z" finished-at="2019-01-08T17:00:33Z">
+      <class name="testcases.DriverScript">
+        <test-method status="PASS" signature="function()[pri:0, instance:testcases.DriverScript@610694f1]" name="function" duration-ms="69200" started-at="2019-01-08T16:59:24Z" finished-at="2019-01-08T17:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- function -->
+      </class> <!-- testcases.DriverScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
