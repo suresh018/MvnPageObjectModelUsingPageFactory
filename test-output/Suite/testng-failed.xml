@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.DriverScript">
+      <class name="testSuit.DriverScript">
         <methods>
-          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="function"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- testcases.DriverScript -->
+      </class> <!-- testSuit.DriverScript -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

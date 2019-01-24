@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="testcases.DriverScript"/>
+      <class name="testSuit.DriverScript"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

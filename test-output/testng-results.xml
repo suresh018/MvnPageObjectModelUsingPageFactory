@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56290" started-at="2019-01-08T16:30:43Z" finished-at="2019-01-08T16:31:39Z">
+  <suite name="Suite" duration-ms="39677" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:28:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56290" started-at="2019-01-08T16:30:43Z" finished-at="2019-01-08T16:31:39Z">
-      <class name="testcases.DriverScript">
-        <test-method status="PASS" signature="function()[pri:0, instance:testcases.DriverScript@5ed828d]" name="function" duration-ms="56167" started-at="2019-01-08T16:30:43Z" finished-at="2019-01-08T16:31:39Z">
+    <test name="Test" duration-ms="39677" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:28:25Z">
+      <class name="testSuit.DriverScript">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="beforeClass" is-config="true" duration-ms="15" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:27:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- function -->
-      </class> <!-- testcases.DriverScript -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@25af5db5]" name="beforeMethod" is-config="true" duration-ms="9894" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:27:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_1010 status=SUCCESS method=DriverScript.Test_1010()[pri:0, instance:testSuit.DriverScript@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_1010()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="Test_1010" duration-ms="9325" started-at="2019-01-24T16:27:55Z" finished-at="2019-01-24T16:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1010 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="afterMethod" is-config="true" duration-ms="1372" started-at="2019-01-24T16:28:04Z" finished-at="2019-01-24T16:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@25af5db5]" name="beforeMethod" is-config="true" duration-ms="8778" started-at="2019-01-24T16:28:06Z" finished-at="2019-01-24T16:28:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_1011 status=SUCCESS method=DriverScript.Test_1011()[pri:0, instance:testSuit.DriverScript@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_1011()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="Test_1011" duration-ms="9133" started-at="2019-01-24T16:28:14Z" finished-at="2019-01-24T16:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1011 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="afterMethod" is-config="true" duration-ms="1108" started-at="2019-01-24T16:28:23Z" finished-at="2019-01-24T16:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-24T16:28:25Z" finished-at="2019-01-24T16:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testSuit.DriverScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
