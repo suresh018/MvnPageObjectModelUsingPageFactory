@@ -11,14 +11,12 @@ public class ReportManager {
 	 public static ExtentTest test;
 	 public static ExtentReports reports;
 	 
-	 public void initReport() throws Exception {
-		 try{
-			 reports=new ExtentReports(InputValues.extentReportPath,true);
-			 reports.loadConfig(new File(InputValues.extentConfig));
-		 }
-		 catch(Exception e){
-			 throw new Exception("Extent config file missing.");
-		 }
+	 public void initReport() {
+		 
+		 
+		 reports=new ExtentReports(InputValues.extentReportPath,true);
+		 reports.loadConfig(new File(InputValues.extentConfig));
+		
 		 
 	 }
 	 

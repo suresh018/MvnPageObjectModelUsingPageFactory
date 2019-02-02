@@ -1,9 +1,0 @@
-pageFactory\HomePage.class
-configurations\InputValues.class
-utilities\ReportManager.class
-utilities\XMLUtilities.class
-testSuit\DriverScript.class
-pageFactory\LoginPage.class
-pageFactory\BasePage.class
-testSuit\TestBase.class
-cusomFactory\DriverFactory.class
