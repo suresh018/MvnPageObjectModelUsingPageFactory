@@ -2,10 +2,13 @@ package testSuit;
 
 import org.testng.annotations.Test;
 
-import cusomFactory.BrowserFactory;
+
+import cusomFactory.DriverFactory;
 import pageFactory.BasePage;
+import utilities.ReportManager;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.By;
@@ -14,30 +17,37 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 
-public class TestBase {
+public class TestBase extends ReportManager{
 	public static String URL="http://www.phptravels.net/";
 
-  @BeforeMethod
-  public void beforeMethod(ITestResult testCaseName) {
-	  String testCase=testCaseName.getMethod().getMethodName();
+
+	  @BeforeClass
+	  public void beforeClass() {
+		  initReport();
+		  
+	  }
+	@Parameters("browser")
+	@BeforeMethod
+	public void setUp(String browser,ITestResult testCaseName) {		
+		String testCase=testCaseName.getMethod().getMethodName();
+		startTest(testCase);
+		DriverFactory.launchBrowser(browser);
+		DriverFactory.loadURL(URL);
+		BasePage.testcaseName=testCase;
 	  
-	  BrowserFactory.launchBrowser("Chrome");
-	  BrowserFactory.loadURL(URL);
-	  BasePage.testcaseName=testCase;
-	  
-  }
+	}
 
   @AfterMethod
-  public void afterMethod() {
-	  BrowserFactory.closeBrowser();
+  public void tearDown(ITestResult testCaseName) {
+	  DriverFactory.closeBrowser();
+	  endTest();
   }
 
-  @BeforeClass
-  public void beforeClass() {
-  }
+
 
   @AfterClass
   public void afterClass() {
+	  terminateReport();
   }
 
 }

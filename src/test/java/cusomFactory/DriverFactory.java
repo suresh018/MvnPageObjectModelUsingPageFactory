@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import configurations.InputValues;
 import pageFactory.BasePage;
 
-public class BrowserFactory {
+public class DriverFactory {
 
 	private static WebDriver driver;
 	public static void launchBrowser(String browser) {

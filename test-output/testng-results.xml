@@ -2,54 +2,78 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="39677" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:28:25Z">
+  <suite name="Suite" duration-ms="85421" started-at="2019-02-02T14:49:13Z" finished-at="2019-02-02T14:50:38Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="39677" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:28:25Z">
+    <test name="Test" duration-ms="85421" started-at="2019-02-02T14:49:13Z" finished-at="2019-02-02T14:50:38Z">
       <class name="testSuit.DriverScript">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="beforeClass" is-config="true" duration-ms="15" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:27:45Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testSuit.DriverScript@3571b748]" name="beforeClass" is-config="true" duration-ms="430" started-at="2019-02-02T14:49:13Z" finished-at="2019-02-02T14:49:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@25af5db5]" name="beforeMethod" is-config="true" duration-ms="9894" started-at="2019-01-24T16:27:45Z" finished-at="2019-01-24T16:27:55Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@3571b748]" name="setUp" is-config="true" duration-ms="20235" started-at="2019-02-02T14:49:13Z" finished-at="2019-02-02T14:49:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_1010 status=SUCCESS method=DriverScript.Test_1010()[pri:0, instance:testSuit.DriverScript@25af5db5] output={null}]]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test_1010 status=SUCCESS method=DriverScript.Test_1010()[pri:0, instance:testSuit.DriverScript@3571b748] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Test_1010()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="Test_1010" duration-ms="9325" started-at="2019-01-24T16:27:55Z" finished-at="2019-01-24T16:28:04Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test_1010()[pri:0, instance:testSuit.DriverScript@3571b748]" name="Test_1010" duration-ms="36679" started-at="2019-02-02T14:49:33Z" finished-at="2019-02-02T14:50:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_1010 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="afterMethod" is-config="true" duration-ms="1372" started-at="2019-01-24T16:28:04Z" finished-at="2019-01-24T16:28:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@25af5db5]" name="beforeMethod" is-config="true" duration-ms="8778" started-at="2019-01-24T16:28:06Z" finished-at="2019-01-24T16:28:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@3571b748]" name="tearDown" is-config="true" duration-ms="2065" started-at="2019-02-02T14:50:10Z" finished-at="2019-02-02T14:50:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_1011 status=SUCCESS method=DriverScript.Test_1011()[pri:0, instance:testSuit.DriverScript@25af5db5] output={null}]]]>
+                <![CDATA[[TestResult name=Test_1010 status=SUCCESS method=DriverScript.Test_1010()[pri:0, instance:testSuit.DriverScript@3571b748] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Test_1011()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="Test_1011" duration-ms="9133" started-at="2019-01-24T16:28:14Z" finished-at="2019-01-24T16:28:23Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@3571b748]" name="setUp" is-config="true" duration-ms="9109" started-at="2019-02-02T14:50:12Z" finished-at="2019-02-02T14:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test_1011 status=SUCCESS method=DriverScript.Test_1011()[pri:0, instance:testSuit.DriverScript@3571b748] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test_1011()[pri:0, instance:testSuit.DriverScript@3571b748]" name="Test_1011" duration-ms="14838" started-at="2019-02-02T14:50:21Z" finished-at="2019-02-02T14:50:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_1011 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="afterMethod" is-config="true" duration-ms="1108" started-at="2019-01-24T16:28:23Z" finished-at="2019-01-24T16:28:25Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testSuit.DriverScript@3571b748]" name="tearDown" is-config="true" duration-ms="1256" started-at="2019-02-02T14:50:36Z" finished-at="2019-02-02T14:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_1011 status=SUCCESS method=DriverScript.Test_1011()[pri:0, instance:testSuit.DriverScript@3571b748] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testSuit.DriverScript@25af5db5]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-24T16:28:25Z" finished-at="2019-01-24T16:28:25Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testSuit.DriverScript@3571b748]" name="afterClass" is-config="true" duration-ms="730" started-at="2019-02-02T14:50:37Z" finished-at="2019-02-02T14:50:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

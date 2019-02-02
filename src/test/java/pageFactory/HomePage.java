@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class HomePage extends BasePage{
 	
 	@FindBy(how=How.XPATH, using="(//a[contains(text(),'Johny')])[2]")
 	private WebElement lnkAccountName;
