@@ -11,7 +11,7 @@ public class ReportManager {
 	 public static ExtentTest test;
 	 public static ExtentReports reports;
 	 
-	 public void initReport() {
+	 public void initReport() throws Exception {
 		 try{
 			 reports=new ExtentReports(InputValues.extentReportPath,true);
 			 reports.loadConfig(new File(InputValues.extentConfig));
