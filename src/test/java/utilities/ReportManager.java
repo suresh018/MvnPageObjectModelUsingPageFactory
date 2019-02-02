@@ -12,8 +12,14 @@ public class ReportManager {
 	 public static ExtentReports reports;
 	 
 	 public void initReport() {
-		 reports=new ExtentReports(InputValues.extentReportPath,true);
-		 reports.loadConfig(new File(InputValues.extentConfig));
+		 try{
+			 reports=new ExtentReports(InputValues.extentReportPath,true);
+			 reports.loadConfig(new File(InputValues.extentConfig));
+		 }
+		 catch(Exception e){
+			 throw new Exception("Extent config file missing.");
+		 }
+		 
 	 }
 	 
 	 public void startTest(String testcase) {
